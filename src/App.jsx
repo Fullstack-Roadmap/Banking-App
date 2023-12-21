@@ -32,7 +32,7 @@ function App() {
     <>
       <div className="z-1 bg-sky-600/90 text-white h-screen grid relative place-content-center p-5">
         <h1 className="translate-y-24 text-3xl font-bold font-Poppins">
-          Hello, Developers on X
+          Discover the perfect Credit Card for you 
         </h1>
         <img src={star} alt="image" className="z-2" />
       </div>
