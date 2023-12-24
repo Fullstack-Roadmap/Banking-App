@@ -1,12 +1,24 @@
+/* Google fonts Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
+/* Tailwind dependencies */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.button-green {
-  @apply bg-green-500;
+/* Two variations of the DebitCard based on the props entered when the components are called */
+.card-green {
+  @apply bg-my-bright-green text-my-mid-tone-green font-bold;
 }
-.button-backdrop {
-  @apply backdrop-blur-md bg-pink-200/40;
+.card-backdrop {
+  @apply backdrop-blur-[8px];
+}
+.rotate {
+  @apply rotate-[15deg];
+}
+.transform-left {
+  @apply skew-x-6 skew-y-12 ;
+}
+.transform-right {
+  @apply -skew-x-[20deg];
 }
