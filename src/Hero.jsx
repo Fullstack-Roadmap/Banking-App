@@ -4,31 +4,35 @@ import Button from "./Button";
 import DebitCard from "./DebitCard";
 import HeroImage from "./assets/Frame 19.png";
 
+// Hero section
 const Hero = () => {
   return (
     <>
-      <nav className="flex flex-col justify-between p-3">
-        <NavBar />
-      </nav>
-      <section className="flex justify-between gap-6">
-        <div>
-          <header>Discover the Perfect</header>
-          <p>Discover the power</p>
-          <Button />
-          <div className="flex justify-between items-center">
-            <img src={HeroImage} alt="image" className="z-2 h-8" />
-            <div className="flex flex-col justify-center">
-              <header>10.2k+</header>
-              <p>Active users</p>
+      <div className="flex flex-col bg-my-dark-green relative h-screen w-screen overflow-hidden  text-white">
+        <nav className="flex flex-col justify-center items-center p-5">
+          <NavBar />
+        </nav>
+        <section className="flex flex-col justify-center items-center gap-10 ">
+          <div>
+            <header>Discover the Perfect...</header>
+            <p>Discover the power...</p>
+            <Button />
+            <div className="flex justify-center items-center">
+              <img src={HeroImage} alt="image" className="z-2 h-8" />
+              <div className="flex flex-col justify-center items-center">
+                <header>10.2k+</header>
+                <p>Active users...</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="flex justify-between gap-6">
-          <DebitCard btnStyle="button-green" />
-          <DebitCard btnStyle="button-backdrop" />
-          <span className="absolute -right-6 h-48 rounded-full -translate-y-28 w-48 bg-green-400"></span>
-        </div>
-      </section>
+          <div className="flex justify-between gap-6 h-auto">
+            <div className="flex gap-6">
+              <DebitCard cardStyle="card-backdrop" rotate="rotate" />
+            </div>
+          </div>
+        </section>
+        <span className="absolute h-80 w-80 rounded-full bg-my-bright-green top-[65vh] left-[50vw]"></span>
+      </div>
     </>
   );
 };
