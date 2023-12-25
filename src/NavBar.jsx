@@ -1,3 +1,4 @@
+import React from 'react'
 import Button from "./Button";
 import Exclude from "./assets/Exclude.png";
 
@@ -15,7 +16,7 @@ const NavBar = () => {
         <li><a className="hover:text-gray-300" href="#">Payment</a></li>
         <li><a className="hover:text-gray-300" href="#">FAQs</a></li>
       </ul>
-      <Button text="Contact" buttonColor='transparent' textColor='green'/>
+      <Button text="Get Started" buttonColor='transparent' textColor='green'/>
     </nav>
   )
 }
