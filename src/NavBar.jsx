@@ -15,7 +15,7 @@ const NavBar = () => {
         <li><a className="hover:text-gray-300" href="#">Payment</a></li>
         <li><a className="hover:text-gray-300" href="#">FAQs</a></li>
       </ul>
-      <Button text="Get Started" buttonColor='transparent' textColor='green'/>
+      <Button text="Contact" buttonColor='transparent' textColor='green'/>
     </nav>
   )
 }
