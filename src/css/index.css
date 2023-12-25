@@ -17,8 +17,23 @@
   @apply rotate-[15deg];
 }
 .transform-left {
-  @apply skew-x-6 skew-y-12 ;
+  @apply skew-x-6 skew-y-12;
 }
 .transform-right {
   @apply -skew-x-[20deg];
+}
+
+.accolades-li {
+  @apply flex flex-col justify-start gap-[0.125rem] items-center text-my-bright-green;
+}
+.accolades-h2 {
+  @apply text-xl font-bold text-white;
+}
+
+.client-li {
+  @apply p-5;
+}
+
+.client-li > img{
+  @apply h-5;
 }

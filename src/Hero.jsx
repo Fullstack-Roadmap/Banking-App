@@ -8,7 +8,7 @@ import HeroImage from "./assets/Frame 19.png";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col bg-my-dark-green relative h-screen w-screen overflow-hidden  text-white">
+      <div className="flex min-h-screen flex-col relative text-white">
         <nav className="flex flex-col justify-center items-center p-5">
           <NavBar />
         </nav>
@@ -31,7 +31,7 @@ const Hero = () => {
             </div>
           </div>
         </section>
-        <span className="absolute h-80 w-80 rounded-full bg-my-bright-green top-[65vh] left-[50vw]"></span>
+        <span className="z-10 absolute h-80 w-80 rounded-full bg-my-bright-green top-[65vh] left-[50vw]"></span>
       </div>
     </>
   );
