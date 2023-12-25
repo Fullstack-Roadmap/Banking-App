@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from 'prop-types';
 
 // Importing images from assets folder
 import mastercard from "./assets/Exclude (1).png";
@@ -56,5 +56,11 @@ const DebitCard = ({ cardStyle, rotate, transform }) => {
     </div>
   );
 };
+
+DebitCard.propTypes = {
+  cardStyle: PropTypes.string.isRequired,
+  rotate: PropTypes.string,
+  transform: PropTypes.string
+}
 
 export default DebitCard;

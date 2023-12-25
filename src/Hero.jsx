@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "./NavBar";
 import Button from "./Button";
 import DebitCard from "./DebitCard";
@@ -9,9 +8,9 @@ const Hero = () => {
   return (
     <>
       <div className="flex min-h-screen flex-col relative text-white">
-        <nav className="flex flex-col justify-center items-center p-5">
+        <div className="container mx-auto">
           <NavBar />
-        </nav>
+        </div>
         <section className="flex flex-col justify-center items-center gap-10 ">
           <div>
             <header>Discover the Perfect...</header>
