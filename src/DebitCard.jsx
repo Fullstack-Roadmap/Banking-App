@@ -13,7 +13,7 @@ const DebitCard = ({ cardStyle, rotate, transform }) => {
     // styles of the entire card for the other variants(green and backdrop blur versions)
     // When making for the largest screens, multiple variables by 1.3
     <div
-      className={`box-border font-normal text-[0.75rem] flex flex-col items-between justify-center gap-4 z-30 text-white bg-gray-200/20 rounded-[1.75rem] w-[19.2rem] h-[12.15rem] border-[2px] border-gray-300/80 px-[1.875rem] tracking-wide ${cardStyle} ${rotate} ${transform}`}
+      className={`mt-6 box-border font-normal text-[0.75rem] flex flex-col items-between justify-center gap-4 z-30 text-white bg-gray-200/20 rounded-[1.75rem] w-[19.2rem] h-[12.15rem] border-[2px] border-gray-300/80 px-[1.875rem] tracking-wide ${cardStyle} ${rotate} ${transform}`}
     >
       <div className="flex justify-between">
         <img src={mastercard} alt="mastercard" className="h-[1.315rem]" />
