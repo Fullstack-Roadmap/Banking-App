@@ -8,30 +8,30 @@ const Hero = () => {
   return (
     <>
       <div className="flex min-h-screen flex-col relative text-white">
-        <div className="container mx-auto">
-          <NavBar />
-        </div>
-        <section className="flex flex-col justify-center items-center gap-10 ">
+        <NavBar />
+        <div className="w-full justify-center items-center px-[1.5rem] md:px-[3rem] pt-[2rem] md:pt-[3rem]">
           <div>
-            <header>Discover the Perfect...</header>
-            <p>Discover the power...</p>
-            <Button />
-            <div className="flex justify-center items-center">
-              <img src={HeroImage} alt="image" className="z-2 h-8" />
-              <div className="flex flex-col justify-center items-center">
-                <header>10.2k+</header>
-                <p>Active users...</p>
+            <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">Discover the Perfect</h1>
+            <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">Credit Card For You</h1>
+            <h2 className="text-[0.75rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">Discover the power of our secure and rewarding credit cards. Explore our range of credit cards and take control of your finances today.</h2>
+            <Button text="Get Started" hasArrow={true}/>
+            <div className="flex pt-[1.2rem] items-center">
+              <img src={HeroImage} alt="image" className="z-2 h-10" />
+              <div className="pl-[0.7rem]">
+              <h1 className="text-[0.8rem] md:text-[0.9rem] font-medium md:font-medium">10.2k+</h1>
+              <h2 className="text-[0.6rem] font-light text-gray-400">Active users around</h2>
+              <h2 className="text-[0.6rem] font-light text-gray-400">the world</h2>
               </div>
             </div>
           </div>
-          <div className="flex justify-between gap-6 h-auto">
-            <div className="flex gap-6">
+          <div className="relative">
+            <span className="absolute top-[3rem] right-[-4rem] h-80 w-80 rounded-full bg-my-bright-green"></span>
+            <div className="absolute top-[5rem] right-[2rem]">
               <DebitCard cardStyle="card-backdrop" rotate="rotate" />
-            </div>
           </div>
-        </section>
-        <span className="z-10 absolute h-80 w-80 rounded-full bg-my-bright-green top-[65vh] left-[50vw]"></span>
-      </div>
+          </div>
+          </div>
+        </div>
     </>
   );
 };
