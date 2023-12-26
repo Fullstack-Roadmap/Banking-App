@@ -7,7 +7,7 @@ import PerfectCard from "./PerfectCard";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center bg-my-dark-green overflow-hidden">
+    <div className="flex flex-col justify-center bg-my-dark-green overflow-hidden gap-2">
       <Hero />
       <Accolades />
       <Clients />

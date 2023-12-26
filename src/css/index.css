@@ -10,6 +10,9 @@
 .card-green {
   @apply bg-my-bright-green text-my-mid-tone-green font-bold;
 }
+.card-white {
+  @apply bg-white text-black font-bold;
+}
 .card-backdrop {
   @apply backdrop-blur-[8px];
 }
