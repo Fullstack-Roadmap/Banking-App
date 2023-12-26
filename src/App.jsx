@@ -5,6 +5,7 @@ import Offers from "./Offer";
 import PersonalisedCard from "./PersonalisedCard";
 import PerfectCard from "./PerfectCard";
 import FAQs from "./Faqs";
+import ManageFInance from "./ManageFinance";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <PersonalisedCard />
       <PerfectCard />
       <FAQs />
+      <ManageFInance />
     </div>
   );
 }
