@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <div className="flex flex-col text-white">
       <NavBar />
-      <div className="md:flex w-full justify-between px-[1.5rem] md:px-[3rem] pt-[2rem] md:pt-[3rem]">
-        <div>
+      <div className="md:flex w-full justify-between md:px-[3rem] pt-[2rem] md:pt-[3rem]">
+        <div className="px-[1.5rem]">
           <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">
             Discover the Perfect
           </h1>
@@ -36,10 +36,10 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="relative h-[23rem] w-[25rem] mt-12">
-          <span className="absolute top-[1rem] bottom-0 right-[-3rem] md:right-[-4rem] h-[18rem] w-[18rem] rounded-full bg-my-bright-green"></span>
-          <div className="absolute top-[2rem] bottom-0 right-[3rem] md:right-[2rem]">
-            <DebitCard cardStyle="card-backdrop" rotate="rotate" />
+        {/*    */}
+        <div className="flex justify-end">
+          <div className="right-0 sm:max-w-[38rem] mb-10">
+            <DebitCard />
           </div>
         </div>
       </div>

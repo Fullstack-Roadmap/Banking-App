@@ -6,26 +6,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* Two variations of the DebitCard based on the props entered when the components are called */
-.card-green {
-  @apply bg-my-bright-green text-my-mid-tone-green font-bold;
-}
-.card-white {
-  @apply bg-white text-black font-bold;
-}
-.card-backdrop {
-  @apply backdrop-blur-[8px];
-}
-.rotate {
-  @apply rotate-[15deg];
-}
-.transform-left {
-  @apply skew-x-6 skew-y-12;
-}
-.transform-right {
-  @apply -skew-x-[20deg];
-}
-
 .accolades-li {
   @apply flex flex-col justify-start gap-[0.125rem] items-center text-my-bright-green;
 }

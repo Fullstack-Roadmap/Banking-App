@@ -1,15 +1,15 @@
 import Button from "./Button";
-import DebitCard from "./DebitCard";
+import DebitCard3 from "./DebitCard3";
 
 // Hero section
 const PersonalisedCard = () => {
   return (
-    <div className="md:flex w-full justify-between px-[1.5rem] md:px-[3rem] pt-[5rem] md:pt-[4rem] text-white">
+    <div className="md:flex w-full justify-between px-[3rem] pt-[3rem] md:pt-[4rem] text-white">
       <div>
-        <h1 className="text-2xl md:text-3xl font-semibold md:font-bold">
+        <h1 className="text-2xl md:text-3xl font-bold">
           Design your personalized
         </h1>
-        <h1 className="text-2xl md:text-3xl font-semibold md:font-bold">
+        <h1 className="text-2xl md:text-3xl font-bold">
           credit card.
         </h1>
         <h2 className="text-[0.75rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">
@@ -17,19 +17,9 @@ const PersonalisedCard = () => {
           ensuring a truly unique experience that makes you feel extraordinary.
         </h2>
         <Button text="Create New Card" hasArrow={true} />
-          </div>
-          
-          {/* Also not done */}
-      <div className="relative pt-[3rem] md:pt-[1rem] h-[27rem] tran">
-        <div className="absolute translate-y-64">
-          <DebitCard cardStyle="card-white" rotate="transform-right" />
-        </div>
-        <div className="absolute translate-y-[12rem]">
-          <DebitCard cardStyle="card-green" rotate="transform-right" />
-        </div>
-        <div className="absolute translate-y-[8rem]">
-          <DebitCard cardStyle="card-backdrop" rotate="transform-right" />
-        </div>
+      </div>
+      <div className="pt-[3rem] sm:translate-x-5">
+        <DebitCard3 />
       </div>
     </div>
   );
