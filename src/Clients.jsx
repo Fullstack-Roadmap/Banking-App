@@ -9,7 +9,7 @@ import dell from "./assets/dell.png";
 
 const Clients = () => {
   return (
-    <div className="my-12 mx-6">
+    <div className="mx-6 flex justify-center">
       <ul className="h-15 grid grid-cols-3 grid-rows-2">
         <li className="client-li">
           <img src={upWork} alt="" />

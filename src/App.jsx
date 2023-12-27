@@ -7,15 +7,18 @@ import PerfectCard from "./PerfectCard";
 import FAQs from "./Faqs";
 import ManageFinance from "./ManageFinance";
 
+import ReviewSection from "./ReviewSection";
+
 function App() {
   return (
-    <div className="flex flex-col justify-center bg-my-dark-green overflow-hidden gap-2">
+    <div className="flex flex-col justify-center bg-my-dark-green overflow-hidden gap-10">
       <Hero />
       <Accolades />
       <Clients />
       <Offers />
       <PersonalisedCard />
       <PerfectCard />
+      <ReviewSection />
       <FAQs />
       <ManageFinance />
     </div>
