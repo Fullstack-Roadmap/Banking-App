@@ -1,7 +1,7 @@
 import Button from "./Button";
 import DebitCard2 from "./DebitCard2";
 
-// Hero section
+
 const PerfectCard = () => {
   return (
     <div className="mt-8 md:flex w-full justify-between px-[3rem] md:px-[3rem] pt-[3rem] md:pt-[4rem] text-white">

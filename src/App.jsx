@@ -5,6 +5,7 @@ import Offers from "./Offer";
 import PersonalisedCard from "./PersonalisedCard";
 import PerfectCard from "./PerfectCard";
 import FAQs from "./Faqs";
+import ManageFinance from "./ManageFinance";
 
 import ReviewSection from "./ReviewSection";
 
@@ -19,6 +20,7 @@ function App() {
       <PerfectCard />
       <ReviewSection />
       <FAQs />
+      <ManageFinance />
     </div>
   );
 }
