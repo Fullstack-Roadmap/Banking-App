@@ -1,11 +1,12 @@
 const Offers = () => {
   return (
-    <div className="mt-12 flex flex-col justify-center items-center text-white px-[1.5rem]">
-      <h1 className="text-2xl md:text-3xl font-bold text-center mb-4">
+    <div className="flex flex-col text-white px-[1.5rem] items-center">
+      <h1 className="text-2xl md:text-3xl font-semibold md:font-bold text-center mb-4">
         What do we offer?
       </h1>
       
-      <div className="flex pt-[1.2rem]">
+      <div className="md:flex md:justify-center md:space-x-[2rem]">
+        <div className="flex pt-[1.2rem]">
         <div className="h-[3.5rem] w-[3.5rem] bg-[#0f4c37]/[0.25] rounded-[1.2rem] flex justify-center items-center">
           <svg
             width="24"
@@ -93,6 +94,7 @@ const Offers = () => {
             Your data and funds will be securely protected.
           </h2>
         </div>
+      </div>
       </div>
     </div>
   );
