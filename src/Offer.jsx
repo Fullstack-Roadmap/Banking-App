@@ -1,7 +1,7 @@
 const Offers = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-white px-[1.5rem]">
-      <h1 className="text-2xl md:text-3xl font-semibold md:font-bold text-center mb-4">
+    <div className="mt-12 flex flex-col justify-center items-center text-white px-[1.5rem]">
+      <h1 className="text-2xl md:text-3xl font-bold text-center mb-4">
         What do we offer?
       </h1>
       
