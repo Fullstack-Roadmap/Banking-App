@@ -1,9 +1,11 @@
-import Button from "./Button";
+import IOSImage from "./assets/image 108.png";
+import AppStore from "./assets/appstore.svg";
+import GooglePlay from "./assets/googleplay.svg";
 
 // Hero section
-const ManageFInance = () => {
+const ManageFinance = () => {
   return (
-    <div className="mt-12 md:flex w-full justify-between px-[1.5rem] md:px-[3rem] pt-[3rem] md:pt-[4rem] text-white">
+    <div className="md:flex w-full justify-between items-center px-[1.5rem] md:px-[3rem] pt-[1rem] md:pt-[2rem] text-white">
       <div>
         <h1 className="text-2xl md:text-3xl font-semibold md:font-bold">
           Easy Way to manage
@@ -14,10 +16,16 @@ const ManageFInance = () => {
         <h2 className="text-[0.75rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">
           Easy to use mobile app that support on android and ios.
         </h2>
-        <Button text="Create New Card" hasArrow={true} />
+        <div className="flex py-[0.5rem] space-x-[1rem] h-[3rem] md:h-[4rem]">
+          <img src={AppStore} alt="image" />
+          <img src={GooglePlay} alt="image" />
+        </div>
+      </div>
+      <div>
+        <img src={IOSImage} alt="image" className="h-[20rem]" />
       </div>
     </div>
   );
 };
 
-export default ManageFInance;
+export default ManageFinance;
