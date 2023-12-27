@@ -16,7 +16,7 @@ function App() {
       <Offers />
       <PersonalisedCard />
       <PerfectCard />
-      
+      <ReviewSection />
     </div>
   );
 }
