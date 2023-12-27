@@ -64,16 +64,19 @@ const FAQs = () => {
 const FAQItem = ({ index, question, answer, onTap, currentIdx }) => {
   return (
     <div key={index}>
-      <div className="flex justify-between items-start pt-[1.5rem]">
+      <div
+        onClick={onTap}
+        className="flex justify-between items-start pt-[1.5rem]"
+      >
         <h1 className="text-[1rem] md:text-lg font-medium pr-[0.5rem]">
           {question}
         </h1>
-        <button onClick={onTap} className="text-[1.2rem]">
+        <button className="text-[1.2rem]">
           {currentIdx === index ? "-" : "+"}
         </button>
       </div>
       {currentIdx === index && (
-        <p className="text-[0.6rem] md:text-[0.75rem] text-gray-400 font-light pt-[0.3rem]">
+        <p className="text-[0.7rem] md:text-[0.75rem] text-gray-400 font-light pt-[0.3rem]">
           {answer}
         </p>
       )}
