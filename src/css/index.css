@@ -14,7 +14,7 @@
 }
 
 .client-li {
-  @apply p-5;
+  @apply p-5 flex justify-center items-center;
 }
 
 .client-li > img{

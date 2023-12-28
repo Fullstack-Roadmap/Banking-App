@@ -6,13 +6,13 @@ const NavBar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   return (
     <nav className="w-full py-[1.2rem] px-[1.2rem] md:px-[3rem] flex justify-between items-center">
-      <div className="flex items-center">
+      <div className="flex items-center gap-1">
         <img
           src={Exclude}
           alt="exclude"
-          className="h-[.7rem] md:h-[1rem] pr-[0.3rem] md:pr-[0.5rem]"
+          className="h-[1rem] md:h-[1rem] pr-[0.3rem] md:pr-[0.5rem]"
         />
-        <a className="text-[0.8rem] font-semibold md:text-[1rem]" href="#">
+        <a className="text-[1rem] font-semibold md:text-[1rem]" href="#">
           GreenBank
         </a>
       </div>
