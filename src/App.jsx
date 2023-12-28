@@ -7,6 +7,7 @@ import PerfectCard from "./PerfectCard";
 import FAQs from "./Faqs";
 import ManageFinance from "./ManageFinance";
 import ReviewSection from "./ReviewSection";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <ReviewSection />
       <FAQs />
       <ManageFinance />
+      <Footer />
     </div>
   );
 }
