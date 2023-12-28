@@ -6,9 +6,7 @@ import PersonalisedCard from "./PersonalisedCard";
 import PerfectCard from "./PerfectCard";
 import FAQs from "./Faqs";
 import ManageFinance from "./ManageFinance";
-
 import ReviewSection from "./ReviewSection";
-import NavBar from "./NavBar";
 
 function App() {
   return (
