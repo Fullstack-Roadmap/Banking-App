@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col text-white">
       <NavBar />
-      <div className="md:flex w-full justify-between md:px-[3rem] pt-[2rem] md:pt-[3rem]">
+      <div className="md:flex w-full justify-between md:pl-[3rem] pt-[2rem] md:pt-[3rem]">
         <div className="px-[1.5rem]">
           <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">
             Discover the Perfect
