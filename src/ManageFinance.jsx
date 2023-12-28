@@ -5,7 +5,7 @@ import GooglePlay from "./assets/googleplay.svg";
 // Hero section
 const ManageFinance = () => {
   return (
-    <div className="md:flex w-full justify-between items-center px-[1.5rem] md:px-[3rem] pt-[1rem] md:pt-[2rem] text-white">
+    <div className="grid place-content-center md:flex w-full md:justify-between items-center px-[1.5rem] md:px-[3rem] pt-[1rem] md:pt-[2rem] text-white">
       <div>
         <h1 className="text-2xl md:text-3xl font-semibold md:font-bold">
           Easy Way to manage
