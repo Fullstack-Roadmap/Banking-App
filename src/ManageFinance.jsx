@@ -5,7 +5,7 @@ import GooglePlay from "./assets/googleplay.svg";
 // Hero section
 const ManageFinance = () => {
   return (
-    <div className="translate-y-10 grid place-content-center md:flex w-full md:justify-between items-center px-[1.5rem] md:px-[3rem] md:pt-[2rem] text-white">
+    <div className="translate-y-10 grid place-content-center ipad:flex w-full md:justify-between items-center px-[2rem] md:px-[4rem] md:pt-[2rem] text-white">
       <div>
         <h1 className="text-2xl md:text-3xl font-semibold md:font-bold">
           Easy Way to manage
@@ -22,7 +22,7 @@ const ManageFinance = () => {
         </div>
       </div>
       <div>
-        <img src={IOSImage} alt="image" className="h-[20rem]" />
+        <img src={IOSImage} alt="image" className="h-[17rem] md:h-[20rem]" />
       </div>
     </div>
   );

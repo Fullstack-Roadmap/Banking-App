@@ -43,7 +43,7 @@ const FAQs = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-center text-white px-[1.5rem] md:px-[10rem] py-[3rem]">
+    <div className="flex flex-col justify-center text-white px-[2rem] ipad:px-[4rem] md:px-[10rem] py-[3rem]">
       <h1 className="text-2xl md:text-3xl font-semibold text-center md:pb-[1rem]">
         FAQs
       </h1>

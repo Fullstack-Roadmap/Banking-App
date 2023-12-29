@@ -1,5 +1,5 @@
-import React from "react";
 import Frame from "./assets/Frame.png";
+import PropTypes from 'prop-types';
 
 const Review = ({ review, image, name, job }) => {
   return (
@@ -8,7 +8,7 @@ const Review = ({ review, image, name, job }) => {
         <span className="bg-green-200/30 h-8 w-8 rounded-full grid place-content-center p-2">
           <img src={Frame} alt="quotes" />
         </span>
-        <p className="font-semibold">"{review}"</p>
+        <p className="font-semibold">&quot;{review}&quot;</p>
         <div className="flex gap-2">
           <span>
             <img src={image} alt="customer" />
@@ -22,5 +22,12 @@ const Review = ({ review, image, name, job }) => {
     </>
   );
 };
+Review.propTypes = {
+  review: PropTypes.any,
+  image: PropTypes.any,
+  name: PropTypes.any,
+  job: PropTypes.any
+}
+
 
 export default Review;

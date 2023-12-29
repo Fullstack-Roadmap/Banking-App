@@ -1,10 +1,10 @@
 import Button from "./Button";
-import DebitCard3 from "./DebitCard3";
+import DebitCard2 from "./DebitCard2";
 
 // Hero section
 const PersonalisedCard = () => {
   return (
-    <div className="md:flex w-full justify-between px-[3rem] pt-[3rem] md:pt-[4rem] text-white">
+    <div className="md:flex w-full justify-between items-center px-[2rem] md:px-[4rem] pt-[3rem] md:pt-[1.5rem] text-white">
       <div>
         <h1 className="text-2xl md:text-3xl font-bold">
           Design your personalized
@@ -18,8 +18,8 @@ const PersonalisedCard = () => {
         </h2>
         <Button text="Create New Card" hasArrow={true} />
       </div>
-      <div className="pt-[3rem] sm:translate-x-5">
-        <DebitCard3 />
+      <div className="pt-[3rem] sm:-translate-x10">
+        <DebitCard2 />
       </div>
     </div>
   );

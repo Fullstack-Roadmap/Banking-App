@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <div className="flex flex-col text-white">
       <NavBar />
-      <div className="md:flex w-full justify-between md:pl-[3rem] pt-[2rem] md:pt-[3rem]">
-        <div className="px-[1.5rem]">
+      <div className="md:flex w-full justify-between pl-[2rem] md:pl-[4rem] pt-[2rem] md:pt-[3rem]">
+        <div>
           <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">
             Discover the Perfect
           </h1>
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
         {/*    */}
         <div className="flex justify-end">
-          <div className="right-0 sm:max-w-[38rem] mb-10">
+          <div className="right-0 sm:max-w-[32rem] md:max-w-[35rem] mb-10">
             <DebitCard />
           </div>
         </div>

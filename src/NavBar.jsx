@@ -90,7 +90,7 @@ const NavBar = () => {
               </svg>
             </button>
           </div>
-          <ul className="text-2xl flex flex-col justify-around items-center space-y-[1.5rem] hover:text-gray-300 py-16">
+          <ul className="text-2xl ipad:text-3xl flex flex-col justify-around items-center space-y-[1.5rem] ipad:space-y-[3rem] hover:text-gray-300 py-16">
             <li>
               <a href="#">Why Us</a>
             </li>
