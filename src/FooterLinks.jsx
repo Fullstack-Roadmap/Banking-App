@@ -22,16 +22,16 @@ const FooterLinks = () => {
 
   return (
     <>
-      <div className="grid grid-cols-2 grid-rows-2 gap-[2vw] md:gap-[5vw] md:flex">
+      <div className="grid grid-cols-2 grid-rows-2 gap-[2vw] md:gap-[5vw] ipad:flex">
         {footerList.map((item, index) => (
-          <div className="">
+          <div key={index} className="">
             <header className="font-bold text-sm text-white">
               {item.section}
             </header>
             <div className="text-gray-400 text-xs">
               <ul className="">
-                {item.links.map((listItem) => (
-                  <li className="my-2">{listItem}</li>
+                {item.links.map((listItem, index) => (
+                  <li key={index} className="my-2">{listItem}</li>
                 ))}
               </ul>
             </div>

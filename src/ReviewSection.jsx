@@ -1,5 +1,4 @@
 import Review from "./Review";
-import React from "react";
 import reviewImage1 from "./assets/Ellipse.png";
 import reviewImage2 from "./assets/Ellipse (1).png";
 import reviewImage3 from "./assets/Ellipse (2).png";

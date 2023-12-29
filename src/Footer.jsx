@@ -1,4 +1,3 @@
-import React from "react";
 import FooterLinks from "./FooterLinks";
 import Exclude from "./assets/Exclude.png";
 
