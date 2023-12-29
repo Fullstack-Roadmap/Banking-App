@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">
             Credit Card For You
           </h1>
-          <h2 className="text-[0.75rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">
+          <h2 className="text-[0.75rem] ipad:text-[0.95rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">
             Discover the power of our secure and rewarding credit cards. Explore
             our range of credit cards and take control of your finances today.
           </h2>
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
         {/*    */}
         <div className="flex justify-end">
-          <div className="right-0 sm:max-w-[32rem] md:max-w-[35rem] mb-10">
+          <div className="right-0 top-0 sm:max-w-[32rem] mb-10">
             <DebitCard />
           </div>
         </div>
