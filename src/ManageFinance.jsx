@@ -13,7 +13,7 @@ const ManageFinance = () => {
         <h1 className="text-2xl md:text-3xl font-semibold md:font-bold">
           your finances
         </h1>
-        <h2 className="text-[0.75rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">
+        <h2 className="text-[0.75rem] ipad:text-[0.95rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">
           Easy to use mobile app that support on android and ios.
         </h2>
         <div className="flex py-[0.5rem] space-x-[1rem] h-[3rem] md:h-[4rem]">

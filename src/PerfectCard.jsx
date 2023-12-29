@@ -12,7 +12,7 @@ const PerfectCard = () => {
         <h1 className="text-2xl md:text-3xl font-bold">
           Card for You
         </h1>
-        <h2 className="text-[0.75rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">
+        <h2 className="text-[0.75rem] ipad:text-[0.95rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">
           Discover your ideal credit card with ease. Our comprehensive selection
           caters to every financial need and lifestyle. Whether you seek
           cashback rewards, travel perks, or building credit, we have the
