@@ -5,16 +5,13 @@ const FooterLinks = () => {
     {
       section: "About Us",
       links: ["Investors", "Features", "Book A Demo", "Security"],
-    },
-    {
+    },{
       section: "Products",
       links: ["Credit Cards", "Gift Cards", "Savings Accounts", "NFT"],
-    },
-    {
+    },{
       section: "Useful Links",
       links: ["Free rewards", "Documentation", "Affiliate Program"],
-    },
-    {
+    },{
       section: "Social",
       links: ["Charging", "License", "Site Maps", "News"],
     },
