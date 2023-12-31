@@ -14,34 +14,28 @@ const FAQs = () => {
       question: "How can I apply for a credit card online?",
       answer:
         "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
-    },
-    {
+    },{
       question: "Are there any annual fees associated with the credit card?",
       answer:
         "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
-    },
-    {
+    },{
       question:
         "How long does it take to receive the credit card once approved?",
       answer:
         "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
-    },
-    {
+    },{
       question: "How can I check my credit card balance and transactions?",
       answer:
         "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
-    },
-    {
+    },{
       question: "What should I do if my credit card is lost or stolen?",
       answer:
         "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
-    },
-    {
+    },{
       question: "Is my credit card information secure?",
       answer:
         "The required credit score may vary depending on the specific credit card. Generally, a good to excellent credit score (typically 670 or above) increases your chances of approval for premium credit cards.",
-    },
-  ];
+    }];
   return (
     <div className="flex flex-col justify-center text-white px-[2rem] ipad:px-[4rem] md:px-[10rem] py-[3rem]">
       <h1 className="text-2xl md:text-3xl font-semibold text-center md:pb-[1rem]">
@@ -58,12 +52,10 @@ const FAQs = () => {
         />
       ))}
     </div>
-  );
-};
+  );};
 
 const FAQItem = ({ index, question, answer, onTap, currentIdx }) => {
-  return (
-    <div key={index}>
+  return <div key={index}>
       <div
         onClick={onTap}
         className="flex justify-between items-start pt-[1.5rem]"
@@ -80,9 +72,7 @@ const FAQItem = ({ index, question, answer, onTap, currentIdx }) => {
           {answer}
         </p>
       )}
-      <div className="w-full border-b border-1.5 pt-[0.8rem] border-gray-600"></div>
-    </div>
-  );
+      <div className="w-full border-b border-1.5 pt-[0.8rem] border-gray-600"></div> </div>
 };
 
 FAQItem.propTypes = {

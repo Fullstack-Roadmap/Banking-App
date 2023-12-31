@@ -1,7 +1,6 @@
 import IOSImage from "./assets/image 108.png";
 import AppStore from "./assets/appstore.svg";
 import GooglePlay from "./assets/googleplay.svg";
-
 // Hero section
 const ManageFinance = () => {
   return (
@@ -27,5 +26,4 @@ const ManageFinance = () => {
     </div>
   );
 };
-
 export default ManageFinance;
