@@ -1,5 +1,3 @@
-
-
 const Accolades = () => {
   return (
     <div className="flex">

@@ -1,5 +1,5 @@
 import Frame from "./assets/Frame.png";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const Review = ({ review, image, name, job }) => {
   return (
@@ -26,8 +26,7 @@ Review.propTypes = {
   review: PropTypes.any,
   image: PropTypes.any,
   name: PropTypes.any,
-  job: PropTypes.any
-}
-
+  job: PropTypes.any,
+};
 
 export default Review;
