@@ -1,14 +1,14 @@
 import Button from "./Button";
 import DebitCard3 from "./DebitCard3";
 
-
 const PerfectCard = () => {
   return (
     <div className="mt-8 md:flex w-full justify-between items-center px-[2rem] md:px-[4rem] pt-[2rem] md:pt-[1rem] text-white">
-      <div><h1 className="text-2xl md:text-3xl font-bold">
-          Find the Perfect Credit</h1>
+      <div>
         <h1 className="text-2xl md:text-3xl font-bold">
-          Card for You </h1>
+          Find the Perfect Credit
+        </h1>
+        <h1 className="text-2xl md:text-3xl font-bold">Card for You </h1>
         <h2 className="text-[0.75rem] ipad:text-[0.95rem] font-light text-gray-400 pr-[6rem] py-[0.5rem]">
           Discover your ideal credit card with ease. Our comprehensive selection
           caters to every financial need and lifestyle. Whether you seek
@@ -20,7 +20,8 @@ const PerfectCard = () => {
       </div>
       <div className="pt-[3rem] sm:translate-x-5">
         <DebitCard3 />
-      </div> </div>
+      </div>{" "}
+    </div>
   );
 };
 
